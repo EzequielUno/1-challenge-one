@@ -1,0 +1,203 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Inter', sans-serif;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* div{
+    border-color: black;
+    border-style: solid;
+} */
+
+section{
+    display: flex;
+    background-color: #F3F5FC;
+    height: 90vh;
+    justify-content: space-between;
+}
+.logo{
+    background-image: url("./images/logo.svg");
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+    position: relative;
+    left: 84px;
+    top: 40px;
+    width: 65px;
+    height: 54px;
+}
+
+.ingreso{
+    width: 60%;
+    height: 100%;
+}
+
+.decodifico{
+    position: relative;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 32px;
+    margin: 40px 40px;
+    width: 350px;
+}
+
+.muneco{
+    background-image: url(./images/muneco.svg);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    margin: 40px;
+    width: 336px;
+    height: 304px;
+}
+
+.decodifico > p:nth-child(2){
+    margin-top: 32px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+
+.decodifico > p:nth-child(3){
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.caja{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+textarea{
+    resize: none;
+    border: none;
+    outline: none;
+}
+
+.texto{
+    margin-top: 168px;
+    /* width: 577px;
+    height: 48px; */
+    font-size: 32px;
+    color: #0A3871;
+    background-color: transparent;
+    /* flex-basis: 100%; */
+    margin-top: 168px;
+
+}
+
+.texto::placeholder{
+    color: #0A3871;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+/* .contenedor{
+    height: 100%;
+    margin: 40px;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+p{
+    margin-left: 8px;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 18px;
+    color: #495057;
+}
+.botones{
+    display: flex;
+    width: 100%;    
+}
+.ocultar{
+    display: none;
+}
+
+button{
+    margin-right: 10px;
+    height: 67px;
+    border-radius: 24px;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    transition: transform 0.2s;
+
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+.encriptar{
+    flex-basis: 50%;
+    background-color:#0A3871;
+    color: #FFFFFF;
+
+}
+
+.desencriptar{
+    flex-basis: 50%;
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+}
+.codificado{
+    border: none;
+    font-size: 24px;
+    color: #343A40;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.copiar{
+    height: 67px;
+    margin-top: 70px;
+    background-color: #FFF;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color:#565c74;
+    color: #D8DFE8;
+}
+.redes {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+}
+.linkedin{
+    width: 30px;
+    height: 30px;
+
+}
+
+.github{
+    width: 30px;
+    height: 30px;
+}
